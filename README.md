@@ -1,6 +1,6 @@
 # Портфолио
 
-**Live Demo:** [https://a24-0.github.io/frontend-and-backend-practice/index.html](https://a24-0.github.io/frontend-and-backend-practice/index.html)
+**Live Demo:** [https://a24-0.github.io/frontend-and-backend-practice/](https://a24-0.github.io/frontend-and-backend-practice/)
 
 ## 🚀 О проекте
 
