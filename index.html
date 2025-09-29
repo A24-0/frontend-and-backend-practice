@@ -1,52 +1,73 @@
 <!DOCTYPE html>
-<html lamg="ru">
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Семестровая работа</title>
+        <link rel="stylesheet" href="style/styles.css">
+    </head>
+    <body>
+        <div class="page-container">
+            <header class="header">
+                <h1>Главная</h1>
+            </header>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Семестровая работа</title>
-    <link rel="stylesheet" href="style/styles.css">
-</head>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/news.html">Новости</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/practices.html">Практики</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="pages/goods.html">Товары</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
 
-<body>
-    <div class="header">Главная</div>
-    <div class="menu">
-        <ul>
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="pages/news.html">Новости</a></li>
-            <li><a href="pages/practices.html">Практики</a></li>
-            <li><a href="pages/goods.html">Услуги</a></li>
-            <li><a href="pages/contacts.html">Контакты</a></li>
-        </ul>
-    </div>
-    <div class="content">
-        <p>Информация об авторе</p>
-        <img src="images/my_photo.jpg" alt="Фото автора" width="200" height="200">
-        <p>Гришутина Ангелина Валерьевна</p>
-        <p>ЭФБО-17-24</p>
-        <p>Обо мне: Студентка 2 курса направления "Фуллстек разработка". 
-            Разрабатываю сайты, мобильные и десктопные приложения и изучаю различные языки программирования.</p>
-        <div>HTML + CSS + JavaScript - веб-разработка</div>
-        <div>C# - разработка приложений</div>
-        <div>C++ - системное программирование</div>
-        <div>Python - скрипты и автоматизация</div>
-        <div>SQL - работа с базами данных</div>
-        <div>Kotlin - мобильная разработка</div>
-        <div>Dart - кроссплатформенная разработка</div>
-        <div>Java - объектно-ориентированное программирование</div>
-        <div>
-            Мой опыт работы:
-            <div>
-                Учебные проекты<br>
-                Создание сайтов и приложений
-            </div>
-            <div>
-                Практические задания<br>
-                Изучение различных технологий
-            </div>
-    </div>
-    </div>
-    <div class="footer">© 2025 Семестровая работа. Все права защищены.</div>
-</body>
+            <main class="content">
+                <article class="profile-header">
+                    <h1 class="profile-title">Информация об авторе</h1>
+                    <img class="profile-photo" src="images/my_photo.jpg" alt="Фото автора">
+                    <h2 class="profile-name">Гришутина Ангелина Валерьевна</h2>
+                    <p class="profile-group">ЭФБО-17-24</p>
+                </article>
+                
+                <section class="about-me">
+                    <h2>Обо мне</h2>
+                    <p>Студентка 2 курса направления "Фуллстек разработка". 
+                        Разрабатываю сайты, мобильные и десктопные приложения и изучаю различные языки программирования.</p>
+                </section>
+                
+                <section class="skills-container">
+                    <h2>Мои навыки</h2>
+                    <div class="skills-grid">
+                        <div class="skill-tag">HTML + CSS + JavaScript</div>
+                        <div class="skill-tag">C#</div>
+                        <div class="skill-tag">C++</div>
+                        <div class="skill-tag">Python</div>
+                        <div class="skill-tag">SQL</div>
+                        <div class="skill-tag">Kotlin</div>
+                        <div class="skill-tag">Dart</div>
+                        <div class="skill-tag">Java</div>
+                    </div>
+                </section>
+                
+                <section class="experience-section">
+                    <h2 class="section-title">Мой опыт работы</h2>
+                    <div class="experience-grid">
+                        <article class="experience-card">
+                            <h3 class="experience-title">Учебные проекты</h3>
+                            <p class="experience-desc">Создание сайтов и приложений</p>
+                        </article>
+                        <article class="experience-card">
+                            <h3 class="experience-title">Практические задания</h3>
+                            <p class="experience-desc">Изучение различных технологий</p>
+                        </article>
+                    </div>
+                </section>
+            </main>
 
+            <footer class="footer">
+                <p>© 2025 Семестровая работа. Все права защищены.</p>
+            </footer>    
+        </div>
+    </body>
 </html>

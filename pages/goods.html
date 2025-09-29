@@ -7,56 +7,65 @@
     <link rel="stylesheet" href="../style/styles.css">
 </head>
 <body>
-    <div class="header">Каталог услуг</div>
-    <div class="menu">
-        <ul>
-            <li><a href="../index.html">Главная</a></li>
-            <li><a href="news.html">Новости</a></li>
-            <li><a href="practices.html">Практики</a></li>
-            <li><a href="goods.html">Услуги</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-    </div>
-    <div class="content">
-        <h2>Услуги</h2>
-        
-        <div class="product-category">
-            <h3>Веб-разработка</h3>
-            <div class="product-item">
-                <h4>Создание лендинга</h4>
-                <p><strong>Цена:</strong> от 15,000 руб.</p>
-                <img src="../images/landing.jpg" alt="Создание лендинга" width="500" height="500">
-                <p>Одностраничный сайт с адаптивным дизайном</p>
-            </div>
-            
-            <div class="product-item">
-                <h4>Корпоративный сайт</h4>
-                <p><strong>Цена:</strong> от 35,000 руб.</p>
-                <img src="../images/website.jpg" alt="Корпоративный сайт" width="500" height="500">
-                <p>Многостраничный сайт для компании</p>
-            </div>
-        </div>
+    <div class="page-container">
+        <header class="header">
+            <h1>Каталог услуг</h1>
+        </header>
 
-        <div class="product-category">
-            <h3>Мобильные приложения</h3>
-            <div class="product-item">
-                <h4>Мобильное приложение</h4>
-                <p><strong>Цена:</strong> от 80,000 руб.</p>
-                <img src="../images/app.jpg" alt="Мобильное приложение" width="500" height="500">
-                <p>Кроссплатформенное приложение для iOS и Android</p>
-            </div>
-        </div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
+                <li class="nav-item"><a class="nav-link" href="news.html">Новости</a></li>
+                <li class="nav-item"><a class="nav-link" href="practices.html">Практики</a></li>
+                <li class="nav-item"><a class="nav-link" href="goods.html">Услуги</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
 
-        <div class="product-category">
-            <h3>Обучение</h3>
-            <div class="product-item">
-                <h4>Консультация</h4>
-                <p><strong>Цена:</strong> 2,000 руб./час</p>
-                <img src="../images/consultation.jpg" alt="Консультация" width="500" height="500">
-                <p>Индивидуальная консультация</p>
-            </div>
-        </div>
+        <main class="content">
+            <section class="products-section">
+                <h2 class="section-title">Услуги</h2>
+                
+                <div class="products-grid">
+                    <article class="product-card">
+                        <h3 class="product-category-title">Веб-разработка</h3>
+                        <h4 class="product-name">Создание лендинга</h4>
+                        <img class="product-image" src="../images/landing.jpg" alt="Создание лендинга">
+                        <p class="product-price"><strong>Цена:</strong> от 15,000 руб.</p>
+                        <p class="product-description">Одностраничный сайт с адаптивным дизайном</p>
+                    </article>
+                    
+                    <article class="product-card">
+                        <h3 class="product-category-title">Веб-разработка</h3>
+                        <h4 class="product-name">Корпоративный сайт</h4>
+                        <img class="product-image" src="../images/website.jpg" alt="Корпоративный сайт">
+                        <p class="product-price"><strong>Цена:</strong> от 35,000 руб.</p>
+                        <p class="product-description">Многостраничный сайт для компании</p>
+                    </article>
+
+                    <article class="product-card">
+                        <h3 class="product-category-title">Мобильные приложения</h3>
+                        <h4 class="product-name">Мобильное приложение</h4>
+                        <img class="product-image" src="../images/app.jpg" alt="Мобильное приложение">
+                        <p class="product-price"><strong>Цена:</strong> от 80,000 руб.</p>
+                        <p class="product-description">Кроссплатформенное приложение для iOS и Android</p>
+                    </article>
+
+                    <article class="product-card">
+                        <h3 class="product-category-title">Обучение</h3>
+                        <h4 class="product-name">Консультация</h4>
+
+                        <img class="product-image" src="../images/consultation.jpg" alt="Консультация">
+                        <p class="product-price"><strong>Цена:</strong> 2,000 руб./час</p>
+                        <p class="product-description">Индивидуальная консультация</p>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>© 2025 Семестровая работа. Все права защищены.</p>
+        </footer>
     </div>
-    <div class="footer">© 2025 Семестровая работа. Все права защищены.</div>
 </body>
 </html>
